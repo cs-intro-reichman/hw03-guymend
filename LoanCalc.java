@@ -62,8 +62,8 @@ public class LoanCalc {
     public static double bisectionSolver(double loan, double rate, int n, double epsilon) {  
     	// Replace the following statement with your code
 		iterationCounter = 0;
-		double overPay = 100000;
-		double underPay = 1;
+		double overPay = loan;
+		double underPay = loan / n;
 		double currentPay = (overPay + underPay) / 2;
 		while (overPay - underPay > epsilon){
 			if (endBalance(loan, rate, n, currentPay) * endBalance(loan, rate, n, underPay) > 0){
