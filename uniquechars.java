@@ -11,7 +11,6 @@ public class uniquechars {
      * unless they are space characters.
      */
     public static String uniqueChars(String s) {
-        // Replace the following statement with your code
         int[] usedLetters = new int[1000];
         String newWord = "";
         for(int i = 0; i < s.length(); i++){
