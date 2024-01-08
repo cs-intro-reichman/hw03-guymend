@@ -24,20 +24,20 @@ public class Calendar0 {
 	private static void nDaysInMonthTest(int year) {
 		System.out.println("Month 1 has 31 days")		
 		if(isLeapYear(year)){
-			System.out.println("Month 2 has 28 days")
+			System.out.println("Month 2 has 28 days");
 		}else{
-			System.out.println("Month 2 has 29 days")
+			System.out.println("Month 2 has 29 days");
 		}
-		System.out.println("Month 3 has 31 days")
-		System.out.println("Month 4 has 30 days")
-		System.out.println("Month 5 has 31 days")
-		System.out.println("Month 6 has 30 days")
-		System.out.println("Month 7 has 31 days")
-		System.out.println("Month 8 has 31 days")
-		System.out.println("Month 9 has 30 days")
-		System.out.println("Month 10 has 31 days")
-		System.out.println("Month 11 has 30 days")
-		System.out.println("Month 12 has 31 days")
+		System.out.println("Month 3 has 31 days");
+		System.out.println("Month 4 has 30 days");
+		System.out.println("Month 5 has 31 days");
+		System.out.println("Month 6 has 30 days");
+		System.out.println("Month 7 has 31 days");
+		System.out.println("Month 8 has 31 days");
+		System.out.println("Month 9 has 30 days");
+		System.out.println("Month 10 has 31 days");
+		System.out.println("Month 11 has 30 days");
+		System.out.println("Month 12 has 31 days");
 	}
 
 	// Returns true if the given year is a leap year, false otherwise.
