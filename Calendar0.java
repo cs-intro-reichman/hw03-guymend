@@ -22,7 +22,7 @@ public class Calendar0 {
 
 	// Tests the nDaysInMonth function.
 	private static void nDaysInMonthTest(int year) {
-		System.out.println("Month 1 has 31 days")		
+		System.out.println("Month 1 has 31 days");		
 		if(isLeapYear(year)){
 			System.out.println("Month 2 has 28 days");
 		}else{
