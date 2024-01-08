@@ -12,6 +12,15 @@ public class UniqueChars {
      */
     public static String uniqueChars(String s) {
         // Replace the following statement with your code
-        return null;
+        int[] usedLetters = new int[1000];
+        String newWord = "";
+        for(int i = 0; i < s.length(); i++){
+            Character letter =  s.charAt(i);
+            if((usedLetters[(int) letter] != 1) || ((int) letter == 32)){
+                newWord = newWord + s.charAt(i);
+                usedLetters[(int) letter] = 1;
+            }
+        }
+        return newWord;
     }
 }
